@@ -1,16 +1,17 @@
 <a name="readme-top"></a>
 # # Saluma-s-Portfolio Project
 
-> This is a project for building my personal portfolio .
+> This is a project for building my mobile first portfolio .
 
 ## Built With
 
-- HTML, CSS
+- HTML
+-  CSS
 - VSCode
+- linter
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Authors <a name="authors"></a>
-
 👤 **Saluuma Hassan**
 
 - GitHub: [@Saluumaa](https://github.com/saluumaa)
@@ -21,7 +22,6 @@
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
 Feel free to check the [issues page](../../issues/).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -32,7 +32,7 @@ If you like this project say nice thing to motivate
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- ACKNOWLEDGEMENTS -->
+
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
