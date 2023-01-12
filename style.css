@@ -48,32 +48,33 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
+    padding: 12px;
   }
 
   .section-one h1 {
     font-weight: 700;
     font-size: 40px;
-    width: 70%;
     margin: 10px 0;
     padding-left: 20px;
+    padding-right: 20px;
     padding-top: 80px;
     color: #172b4d;
     align-items: center;
   }
 
   .section-one p {
-    width: 90%;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #344563;
     margin-bottom: 10px;
-    padding: 0 20px;
+    padding-left: 20px;
   }
 
   .social-media {
     display: flex;
     align-items: center;
+    gap: 12px;
   }
 
   .social-media li {
@@ -86,16 +87,13 @@
     color: #505f79;
   }
 
-  .icon {
-    color: #505f79;
-    width: 30px;
-    font-size: 20px;
+  .social-media li a img {
+    width: 20px;
   }
 
   .btn {
     font-size: 17px;
     font-weight: 500;
-    margin-left: 20px;
     text-align: center;
     padding: 15px;
     width: 200px;
@@ -103,6 +101,7 @@
     margin-bottom: 10px;
     cursor: pointer;
     transition: 0.3;
+    margin-left: 20px;
   }
 
   .btn:hover {
