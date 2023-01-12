@@ -13,6 +13,7 @@
   .wrapper {
     display: flex;
     flex-direction: column;
+    font-family: 'Poppins', sans-serif;
   }
 
   header {
@@ -22,28 +23,31 @@
     margin: 50px 24px;
   }
 
-  header h1 {
+  header p {
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 20px;
     width: 120px;
-    color: #6070ff;
+    color: #5c66b9;
     font-family: 'Poppins', sans-serif;
   }
 
-  header img {
+  .image-logo {
     width: 20px;
     height: 15px;
   }
 
+  header a {
+    text-decoration: none;
+  }
+
   .section-one {
-    background-image: url("header-shapes mobile.png");
+    background-image: url("images/header-shapes\ mobile.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    font-family: 'Robota', cursive;
   }
 
   .section-one h1 {
@@ -52,13 +56,14 @@
     width: 70%;
     margin: 10px 0;
     padding-left: 20px;
-    padding-top: 70px;
+    padding-top: 80px;
     color: #172b4d;
+    align-items: center;
   }
 
   .section-one p {
     width: 90%;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #344563;
@@ -66,16 +71,44 @@
     padding: 0 20px;
   }
 
-  .section-one h3 {
-    font-size: 16px;
-    font-weight: 700;
-    padding-left: 20px;
-    color: #172b4d;
-    margin-bottom: 10px;
+  .social-media {
+    display: flex;
+    align-items: center;
   }
 
-  .section-one img {
-    width: 180px;
+  .social-media li {
+    list-style: none;
     padding-left: 20px;
+  }
+
+  .social-media li a {
+    text-decoration: none;
+    color: #505f79;
+  }
+
+  .icon {
+    color: #505f79;
+    width: 30px;
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 20px;
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+    color: #172b4d;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3;
+  }
+
+  .btn:hover {
+    background-color: #5e6c84;
+    border-radius: 8px;
+    color: #fff;
+    transform: scale(1.1);
   }
 }
