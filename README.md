@@ -1,7 +1,10 @@
 <a name="readme-top"></a>
-# # Saluma-s-Portfolio Project
+# 📖 [Saluma-s-Portfolio] <a name="Saluma-s-Portfolio"></a>
 
 > This is a project for building my mobile first portfolio .
+
+
+ # Saluma-s-Portfolio Project
 
 ## Built With
 
@@ -19,31 +22,33 @@
 - LinkedIn: [Salma ibrahim](https://www.linkedin.com/in/salma-ibrahim-78bb5a14a/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[multiple sections]**
+- [ ] **[grid and flex]**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+
 Feel free to check the [issues page](../../issues/).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project say nice thing to motivate
+If you like this project consider giving a constructive feedback
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank every one contributing this project
+I would like to thank every one contributed the completion of the project
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
-
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-</div>
