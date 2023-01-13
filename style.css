@@ -117,7 +117,7 @@
 
   .work-card {
     border: 1px solid #dfe1e6;
-    border-radius: 25px;
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
     padding: 16px;
