@@ -71,7 +71,6 @@
     display: flex;
     align-items: center;
     gap: 18px;
-    margin-bottom: 15px;
   }
 
   .link-text a {
@@ -111,11 +110,14 @@
   .works-section {
     display: grid;
     grid-template-rows: repeat(4);
-    padding: 200 24px;
+    padding: 70px 24px;
     gap: 86px;
+    margin-top: 100px;
   }
 
   .work-card {
+    border: 1px solid #dfe1e6;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
     padding: 25px;
@@ -208,6 +210,8 @@
     padding: 24px;
     font-family: "Poppins", sans-serif;
     padding-top: 120px;
+    border-top-right-radius: 25px;
+    margin-bottom: 100px;
   }
 
   .about-wrap {
