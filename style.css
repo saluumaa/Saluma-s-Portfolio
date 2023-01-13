@@ -7,7 +7,6 @@
 
   body {
     background-color: #fff;
-    height: 100vh;
   }
 
   .wrapper {
@@ -107,10 +106,12 @@
     transition: 0.3;
   }
 
+  /* Works Section */
+
   .works-section {
     display: grid;
-    grid-template-rows: auto;
-    padding: 160 24px;
+    grid-template-rows: repeat(4);
+    padding: 200 24px;
     gap: 86px;
   }
 
@@ -131,13 +132,15 @@
     margin-bottom: 20px;
   }
 
-  .frame p {
+  .frame h3 {
     font-weight: 600;
     font-size: 13px;
     color: #7a869a;
   }
 
-  .canopy p {
+  .canopy h2 {
+    font-weight: 600;
+    font-size: 13px;
     color: #344563;
   }
 
@@ -183,6 +186,8 @@
     padding: 4px 12px;
     background: #ebebff;
     margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 12px;
   }
 
   .btn {
@@ -202,7 +207,7 @@
     background: #fff;
     padding: 24px;
     font-family: "Poppins", sans-serif;
-    margin-top: 50px;
+    padding-top: 120px;
   }
 
   .about-wrap {
@@ -215,12 +220,14 @@
     font-size: 40px;
     color: #172b4d;
     margin-bottom: 20px;
+    line-height: 52px;
   }
 
   .about-wrap p {
     font-weight: 400;
     font-size: 16px;
     color: #344563;
+    line-height: 24px;
     margin-bottom: 20px;
     font-family: "Poppins", sans-serif;
   }
@@ -235,13 +242,17 @@
   .skill-sets ul li {
     list-style: none;
     padding-bottom: 20px;
-  }
-
-  .skill-sets ul li a {
-    text-decoration: none;
     font-weight: 500;
     font-size: 20px;
     color: #000;
+  }
+
+  .arrows {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 40px;
   }
 
   .language-set span {
@@ -254,49 +265,39 @@
     color: #253858;
   }
 
-  .line {
-    position: relative;
-    margin-bottom: 20px;
-  }
-
-  .line span {
+  .arrows span {
     position: absolute;
     content: "";
     width: 50%;
     height: 5px;
     color: #000;
     left: 0;
-    bottom: 2px;
+    bottom: 5px;
   }
+
+  /* Contacts Section */
 
   .contact-section {
-    display: flex;
-    padding: 24px;
-    background-color: #6070ff;
-    border-top-left-radius: 90px;
-    height: 105vh;
-    position: relative;
     font-family: "Poppins", sans-serif;
-  }
-
-  .shape-form {
-    position: absolute;
-    background: url("images/contact\ form\ shapes-mobile@2x.png");
-    background-position: center;
-    background-size: cover;
-    top: 0;
-    right: 0;
+    background-color: #396df2;
+    height: 110vh;
+    position: relative;
+    border-top-left-radius: 50px;
+    padding-top: 40px;
   }
 
   .contact-wrapper {
+    background-image: url("images/contact\ form\ shapes-mobile@2x.png");
+    background-position: top;
+    background-size: cover;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 17px;
-    position: absolute;
+    gap: 12px;
+    position: relative;
     padding: 0 0 40px 0;
-    transform: translate(-50% -50%);
   }
 
   .contact-wrapper h1 {
@@ -314,10 +315,12 @@
     color: #ebebff;
     margin-bottom: 10px;
     padding: 15px;
+    line-height: 28px;
   }
 
   .contact-wrapper form {
-    padding: 0 50px;
+    padding: 0 30px;
+    flex-wrap: wrap;
   }
 
   form .field {
@@ -355,6 +358,7 @@
     font-size: 17;
     text-align: center;
     left: 0;
+    line-height: 24px;
   }
 
   .bottom-line {
@@ -363,10 +367,10 @@
     width: 100px;
     height: 4px;
     background-color: #0d151e;
-    bottom: 0;
+    bottom: 15px;
     left: 40%;
     right: 40%;
-    top: 98%;
+    top: 99%;
   }
 
   .link-text:hover {
