@@ -6,7 +6,13 @@
   }
 
   body {
+    background-color: #f7f7f9;
+  }
+
+  .intro {
     background-color: #fff;
+    height: 618px;
+    border-bottom-left-radius: 45px;
   }
 
   .wrapper {
@@ -20,6 +26,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 50px 24px;
+    background-color: #fff;
   }
 
   header p {
@@ -42,12 +49,14 @@
 
   .section-one {
     background-image: url("images/header-shapes\ mobile.png");
-    background-position: top;
+    background-position: 100% 10%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     padding: 24px;
+    margin-top: 50px;
   }
 
   .section-one h1 {
@@ -109,10 +118,10 @@
 
   .works-section {
     display: grid;
-    grid-template-rows: repeat(4);
     padding: 70px 24px;
-    gap: 86px;
-    margin-top: 100px;
+    gap: 100px;
+    margin-top: 50px;
+    background-color: #f7f7f9;
   }
 
   .work-card {
@@ -122,6 +131,7 @@
     flex-direction: column;
     padding: 16px;
     font-family: 'Poppins', sans-serif;
+    background-color: #fff;
   }
 
   .work-card h1 {
@@ -209,8 +219,8 @@
     background: #fff;
     padding: 24px;
     font-family: "Poppins", sans-serif;
-    padding-top: 120px;
-    border-top-right-radius: 25px;
+    margin-top: 50px;
+    border-top-right-radius: 35px;
     margin-bottom: 100px;
   }
 
@@ -284,16 +294,18 @@
   .contact-section {
     font-family: "Poppins", sans-serif;
     background-color: #396df2;
-    height: 110vh;
+    height: 779px;
+    min-width: 375px;
     position: relative;
     border-top-left-radius: 50px;
-    padding-top: 40px;
+    padding-top: 120px;
   }
 
   .contact-wrapper {
     background-image: url("images/contact\ form\ shapes-mobile@2x.png");
-    background-position: top;
-    background-size: cover;
+    background-position: 100% 0;
+    background-size: 50%;
+    background-repeat: no-repeat;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -309,7 +321,7 @@
     font-size: 40px;
     color: #fff;
     text-align: center;
-    margin-top: 20px;
+    padding-top: 50px;
   }
 
   .contact-wrapper p {
@@ -332,7 +344,7 @@
     border: 1px solid #cfd8dc;
     margin: 10px 0;
     position: relative;
-    border-radius: 15px;
+    border-radius: 8px;
   }
 
   .field input {
