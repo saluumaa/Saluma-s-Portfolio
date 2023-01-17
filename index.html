@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <main class="wrapper">
-    <section class="intro">
+  
+    
     <header>
         <p><a href="#">My Logo</a></p>
     <nav class="image-logo">
@@ -64,7 +64,7 @@
                </li>  
             </ul>
     </section> 
-</section>
+
 
 <!--Work Cards Section-->
 
@@ -231,7 +231,7 @@
                     <li>
                         <a href="#">css</a>
                     </li>
-
+                    
                     <li>
                         <a href="#">Javascript</a>
                     </li>
@@ -343,37 +343,42 @@
     </div>
 </section>
 
-<!--About Me Section-->
+<!--End of About Me Section-->
    
-    <section class="contact-section">
-        <!-- <section class="shape-form"><img src="images/contact form shapes-mobile@2x.png" alt=""></section> -->
-        <div class="contact-wrapper">
-            <h1>Contact me</h1>
-            <p>If you have an application you are interested in developing, 
-                a feature that you need built or a project that needs coding.
-                 I'd love to help with it </p>
-                <form action="Post">
-                 <div class="field">
-                    <input type="text" placeholder="Yeremias" >
-                    <!-- <label>Yeremias</label>   -->
-                </div>
-                <div class="field">
-                    <input type="text" placeholder="natajayanj14@gmail.com" required>
-                    <!-- <label>natajayanj14@gmail.com</label>   -->
-                </div>
-                <div class="field message">
-                    <input type="text" placeholder="write your message here" required>
-                </div>
-                <input type="submit" value="Get It Touch" class="submit" required>
-                <!-- <button type="button">Get It Touch</button> -->     
-    </form>
+<section class="contact-section" id="contact">
+    <h2 class="contact-title">Contact me</h2>
+    <p class="contact-text">
+      If you have an application you are interested in developing, a feature
+      that you need built or a project that needs coding. I'd love to help
+      with it
+    </p>
+    <form action="https://formspree.io/f/xayznonn" method="POST" >
+     
+      <div class="input">
+      <input class="contact-input"
+        type="text"
+        name="name"
+        placeholder="Name"
+        maxlength="30"
+        required
+      />
     </div>
-    <div class="bottom-line"></div>
-  
-</section>
+    <div class="input">
+    <input class="contact-input" type="email" name="email" placeholder="Email" required /></div>
+      <textarea class="contact-input text-area"
+        name="message"
+        maxlength="500"
+        placeholder="Write your message here"
+        required
+      ></textarea>
+      <input  type="submit" 
+      value="Get in touch"
+      class="btn-contact submit"></input>
+    </form>
+  </section>
 
 
-<!-- -->
-</main>
+
+
 </body>
 </html>
