@@ -284,21 +284,6 @@ header a {
   transform: scale(1.1);
 }
 
-.btn:enabled {
-  color: #6070ff;
-  background-color: #fff;
-}
-
-.btn:hover {
-  background-color: #6070ff;
-  color: #fff;
-}
-
-.btn:disabled {
-  background-color: #e5e5ee;
-  color: #5e6c84;
-  font-size: 17px;
-}
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -307,11 +292,13 @@ header a {
   border-top-left-radius: 80px;
   width: 100%;
   background-image: url(/images/contact-form-m-bg.svg);
-  background-size: 50%;
-  background-position: right;
+  background-size: contain;
+  background-position: top right;
   background-repeat: no-repeat;
   padding-top: 50px;
-  border-bottom-left-radius: 0;
+  padding-bottom: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .contact-section h2 {
@@ -330,7 +317,7 @@ header a {
   line-height: 28px;
   text-align: center;
   margin-top: -10px;
-  padding: 15px;
+  padding: 30px;
 }
 
 .contact-section form {
@@ -341,7 +328,7 @@ header a {
 
 .contact-input {
   padding: 15px;
-  width: 365px;
+  width: 375px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   font-size: 17px;
@@ -373,4 +360,20 @@ header a {
   color: #6070ff;
   border-radius: 8px;
   margin-left: 0;
+}
+
+.btn:enabled {
+  color: #6070ff;
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.btn:disabled {
+  background-color: #e5e5ee;
+  color: #5e6c84;
+  font-size: 17px;
 }
