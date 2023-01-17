@@ -36,7 +36,7 @@ header a {
 }
 
 .section-one {
-  background-image: url("images/header-shapes\ mobile.png");
+  background-image: url('images/header-shapes\ mobile.png');
   background-position: 100% 10%;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -208,7 +208,7 @@ header a {
   background: #fff;
   padding: 24px;
   padding-top: 100px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-top: 50px;
   border-top-right-radius: 35px;
 }
@@ -232,7 +232,7 @@ header a {
   color: #344563;
   line-height: 24px;
   margin-bottom: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .skill-sets {
@@ -270,7 +270,7 @@ header a {
 
 .arrows span {
   position: absolute;
-  content: "";
+  content: '';
   width: 50%;
   height: 5px;
   color: #000;
@@ -298,4 +298,79 @@ header a {
   background-color: #e5e5ee;
   color: #5e6c84;
   font-size: 17px;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+  width: 100%;
+  background-image: url(/images/contact-form-m-bg.svg);
+  background-size: 50%;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  border-bottom-left-radius: 0;
+}
+
+.contact-section h2 {
+  color: #fff;
+  width: 90%;
+  text-align: center;
+  padding-top: 25px;
+  font-weight: 700px;
+  font-size: 40px;
+}
+
+.contact-section p {
+  color: #ebebff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: -10px;
+  padding: 15px;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-input {
+  padding: 15px;
+  width: 365px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #172b4d;
+  outline: none;
+}
+
+.text-area {
+  height: 170px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
+.btn-contact {
+  width: 140px;
+  border: none;
+  padding: 12px 16px;
+  background: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  border-radius: 8px;
+  margin-left: 0;
 }
