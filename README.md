@@ -24,8 +24,8 @@
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[multiple sections]**
-- [ ] **[grid and flex]**
+- [ ] **[Portfolio desktop version]**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -39,7 +39,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project consider giving a constructive feedback
+give ⭐️ If you like this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
