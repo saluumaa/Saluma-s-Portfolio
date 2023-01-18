@@ -194,7 +194,7 @@ header a {
 .btn {
   border: 1px solid #6070ff;
   border-radius: 8px;
-  padding: 10px 12px;
+  padding: 12px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 17px;
@@ -296,6 +296,7 @@ header a {
   background-position: top right;
   background-repeat: no-repeat;
   padding: 50px 24px;
+  font-family: "Poppins", sans-serif;
 }
 
 .contact-section h2 {
@@ -321,11 +322,12 @@ header a {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  font-family: "Poppins", sans-serif;
 }
 
 .contact-input {
   padding: 15px;
-  width: 375px;
+  width: 327px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   font-size: 17px;
@@ -359,9 +361,9 @@ header a {
   margin-left: 0;
 }
 
-.btn:enabled {
-  color: #6070ff;
-  background-color: #fff;
+.btn:active {
+  background-color: #2230d2;
+  color: #fff;
 }
 
 .btn:hover {
@@ -369,7 +371,7 @@ header a {
   color: #fff;
 }
 
-.btn:disabled {
+.btn:link {
   background-color: #e5e5ee;
   color: #5e6c84;
   font-size: 17px;
