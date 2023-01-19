@@ -16,6 +16,10 @@ header {
   align-items: center;
   padding: 15px 24px;
   background-color: #fff;
+  position: fixed;
+  top:0;
+  width: 100%;
+  height: 72px;
 }
 
 header p {
@@ -43,9 +47,9 @@ header a {
 
 .section-one {
   background-image: url('images/header-shapes\ mobile.png');
-  background-position: 100% 10%;
+  background-position: 100%;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 80%;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -53,6 +57,7 @@ header a {
   padding-top: 50px;
   padding-bottom: 60px;
   border-bottom-left-radius: 35px;
+  height: 721px;
 }
 
 .section-one h1 {
@@ -119,8 +124,6 @@ header a {
   padding: 70px 24px;
   gap: 100px;
   margin-top: 50px;
-
-  /* background-color: #e5e5e5; */
   background-color: #f4f5f7;
 }
 
@@ -184,11 +187,12 @@ header a {
   margin-top: 15px;
 }
 
-.lang-button ul li {
+.lang-button li {
   list-style: none;
-  display: inline-block;
-  padding-right: 15px;
-  margin-bottom: 20px;
+  display: inline-flex;
+  align-items: center;
+  padding-right: 10px;
+  margin-bottom: 15px;
 }
 
 .lang-button li a {
@@ -358,6 +362,7 @@ header a {
   font-size: 15px;
   line-height: 24px;
   color: #b3bac5;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn-contact {
@@ -444,10 +449,10 @@ header a {
 
   .section-one {
     background-image: url('images/header-image.png');
-    background-position: top left;
-    background-size: 99% 100%;
+    background-position: 100%;
+    background-size: 100% 80%;
     background-color: #fff;
-    padding: 80px 140px;
+    padding: 80px 260px;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -470,25 +475,23 @@ header a {
   }
 
   .About-section {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
     gap: 24px;
-    padding: 124px;
     border-radius: 0;
     flex: 1;
   }
 
   .about-wrap {
-    flex-basis: 30%;
-    align-items: flex-start;
+    padding: 40px 40px;
   }
 
   .skill-sets {
-    flex-basis: 60%;
+    flex-basis: 70%;
   }
 
   .arrows {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding-top: 20px;
   }
 
@@ -535,7 +538,7 @@ header a {
   }
 
   .works-section {
-    padding: 70px 124px;
+    padding: 70px 80px;
   }
 
   .work-card {
@@ -552,11 +555,11 @@ header a {
   }
 
   .card-img {
-    flex-basis: 30%;
+    flex-basis: 50%;
   }
 
   .right-sec {
-    flex-basis: 70%;
+    flex-basis: 50%;
     text-align: justify;
   }
 
