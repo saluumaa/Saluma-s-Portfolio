@@ -119,6 +119,7 @@ header a {
   padding: 70px 24px;
   gap: 100px;
   margin-top: 50px;
+
   /* background-color: #e5e5e5; */
   background-color: #f4f5f7;
 }
@@ -148,7 +149,7 @@ header a {
   color: #7a869a;
 }
 
- .wrap-frame .canopy {
+.wrap-frame .canopy {
   font-weight: 600;
   font-size: 13px;
   color: #344563;
@@ -394,10 +395,9 @@ header a {
   display: none;
 }
 
-/* Start of the desktop version*/
+/* Start of the desktop version */
 
 @media only screen and (min-width: 768px) {
-
   .img-nav {
     display: none;
   }
@@ -406,6 +406,19 @@ header a {
     display: flex;
     gap: 16px;
     align-items: center;
+  }
+
+  .skill-sets li {
+    color: #344563;
+    line-height: 24px;
+    padding-bottom: 30px;
+  }
+
+  .language-set li {
+    background-color: #f7f7f9;
+    width: 122px;
+    height: 120px;
+    border-radius: 8px;
   }
 
   .nav-bar ul li {
@@ -424,17 +437,20 @@ header a {
   header {
     padding: 25px 80px;
   }
-  header p{
+
+  header p {
     color: #6070ff;
   }
-  .section-one{
+
+  .section-one {
     background-image: url('images/header-image.png');
-    background-position:top left;
+    background-position: top left;
     background-size: 99% 100%;
     background-color: #fff;
     padding: 80px 140px;
     font-family: 'Poppins', sans-serif;
   }
+
   .section-one p {
     font-size: 20px;
     line-height: 28px;
@@ -465,17 +481,10 @@ header a {
   .about-wrap {
     flex-basis: 30%;
     align-items: flex-start;
-    flex: 1;
   }
 
   .skill-sets {
     flex-basis: 60%;
-  }
-
-  .skill-sets li {
-    color: #344563;
-    line-height: 24px;
-    padding-bottom: 30px;
   }
 
   .arrows {
@@ -487,13 +496,6 @@ header a {
     display: flex;
     align-items: center;
     gap: 12px;
-  }
-
-  .language-set li {
-    background-color: #f7f7f9;
-    width: 122px;
-    height: 120px;
-    border-radius: 8px;
   }
 
   .language-set li img {
@@ -541,6 +543,7 @@ header a {
     gap: 24px;
     border: 1px solid #a7aeff;
     border-radius: 24px;
+    flex: 1;
   }
 
   .works-section .card-reverse {
@@ -550,12 +553,14 @@ header a {
 
   .card-img {
     flex-basis: 30%;
-    flex: 1;
-  }
- 
-  .right-sec {
-    flex-basis: 70%;
-    flex:1
   }
 
+  .right-sec {
+    flex-basis: 70%;
+    text-align: justify;
+  }
+
+  .par {
+    max-width: 496px;
+  }
 }
