@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@700&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  
-    
     <header>
         <p><a href="#">My Logo</a></p>
-    <nav class="image-logo">
-        <img src="images/Union.png" alt="navigation icon">
+    <nav class="nav-bar">
+        <img src="images/Union.png" alt="navigation icon" class="img-nav">
+        <ul class="nav-list">
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </nav>
     </header>
 
@@ -28,9 +31,7 @@
             If you like what you see and have
              a project you need coded, 
             don't hestiate to contact me.</p>
-            <div class="link-text">
-                <a href="#">LETT'S CONNECT</a>
-            </div>
+            <p class="link-text"><a href="#">LETT'S CONNECT</a></p>
            
             <ul class="social-media">
                <li>
@@ -70,176 +71,103 @@
 
 <section class="works-section">
     <section class="work-card">
-        <img src="images/Snapshoot Portfolio.png" alt="Snapshoot">
-        <h1>Tonic</h1>
-        
+        <img src="images/Snapshoot Portfolio11.png" alt="Snapshoot" class="card-img first-img"> 
+    <div class="right-sec">
+        <h2>Tonic</h2>
         <article class="wrap-frame">
-            <div class="frame canopy"><h2>CANOPY</h2></div>
-            <div class="frame">
-                <img src="images/Counter.png" alt="">
-            </div>
-            <div class="frame">
-                <h3>Back End Dev</h3>
-            </div>
-            <div class="frame">
-                <img src="images/Counter.png" alt="">
-            </div>
-            <div class="frame">
-                <h3>2015</h3>
-            </div>
+            <p class="frame canopy">CANOPY</p>
+            <img src="images/Counter.png" alt="">
+            <p class="frame">Back End Dev</p>
+            <img class="frame" src="images/Counter.png" alt="" class="card-img">
+            <p class="frame">2015</p>
         </article>
+            <p class="par"> A daily selection of privately
+            personalized reads;<br> no accounts or
+            sign-ups required.</p>
+        <div class="lang-button">
+            <ul>
+                <li><a href="#">Html</a></li>
+                <li> <a href="#">css</a></li>
+                <li><a href="#">Javascript</a></li>
+            </ul>
+        </div>
+        <button type="button" class="btn">See Project</button>
+    </div>
+</section> 
 
-            <div class="par">
-            <p> A daily selection of privately
-                 personalized reads;<br> no accounts or
-                 sign-ups required.</p>
-            </div>
-            <div class="lang-button">
-                <ul>
-                    <li>
-                        <a href="#">Html</a>
-                    </li>
-                    <li>
-                        <a href="#">css</a>
-                    </li>
-                    <li>
-                        <a href="#">Javascript</a>
-                    </li>
-                </ul>
-            </div>
-            <button type="button" class="btn">See Project</button>
-    </section> 
 
+    <section class="work-card card-reverse">
+        <img src="images/Snapshoot Portfolio (1).png" alt="Snapshoot" class="card-img">
+        <!-- <img src="images/firstimagecards.png" alt="Snapshoot" class="img-crd"> -->
+        <div class="right-sec">
+        <h2>Multi-Post Stories</h2>
+        <article class="wrap-frame">
+            <p class="frame canopy">FACEBOOK</p>
+            <img src="images/Counter.png" alt="">
+            <p class="frame">Full Stack Dev</p>
+            <img class="frame" src="images/Counter.png" alt="">
+            <p class="frame">2015</p>
+        </article>
+            <p class="par"> Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+        <div class="lang-button">
+            <ul>
+                <li><a href="#">Html</a></li>
+                <li class="Desktop-version"><a href="#">Ruby on Rails</a></li>
+                <li> <a href="#">css</a></li>
+                <li><a href="#">Javascript</a></li>
+            </ul>
+        </div>
+        <button type="button" class="btn">See Project</button>
+    </div>
+</section> 
 
     <section class="work-card">
-        <img src="images/Snapshoot Portfolio (2).png" alt="Snapshoot">
-        <h1>Tonic</h1>
-        
+        <img src="images/Snapshoot Portfolio.png" alt="Snapshoot" class="card-img">
+        <div class="right-sec">
+        <h2>Facebook 360</h2>
         <article class="wrap-frame">
-            <div class="frame canopy"><h2>CANOPY</h2></div>
-            <div class="frame">
-                <img src="images/Counter.png" alt="">
-            </div>
-            <div class="frame">
-                <h3>Back End Dev</h3>
-            </div>
-            <div class="frame">
-                <img src="images/Counter.png" alt="">
-            </div>
-            <div class="frame">
-                <h3>2015</h3>
-            </div>
+            <p class="frame canopy">FACEBOOK</p>
+            <img src="images/Counter.png" alt="">
+            <p class="frame">Full Stack Dev</p>
+            <img class="frame" src="images/Counter.png" alt="">
+            <p class="frame">2015</p>
         </article>
-
-            <div class="par">
-            <p> A daily selection of privately
-                 personalized reads;<br> no accounts or
-                 sign-ups required.</p>
+            <p class="par"> Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+            <div class="lang-button">
+            <ul>
+                <li><a href="#">Html</a></li>
+                <li class="Desktop-version"><a href="#">Ruby on Rails</a></li>
+                <li> <a href="#">css</a></li>
+                <li><a href="#">Javascript</a></li>
+            </ul>
             </div>
+            <button type="button" class="btn">See Project</button>
+        </div>
+    </section> 
+
+    <section class="work-card card-reverse">
+        <img src="images/Snapshoot Portfolio (3).png" alt="Snapshoot" class="card-img">
+        <div class="right-sec">
+        <h2>Uber Navigation</h2>
+        <article class="wrap-frame">
+            <p class="frame canopy">Uber</p>
+            <img src="images/Counter.png" alt="">
+            <p class="frame">Lead Developer</p>
+            <img class="frame" src="images/Counter.png" alt="">
+            <p class="frame">2018</p>
+        </article>
+            <p class="par"> A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car..</p>
             <div class="lang-button">
                 <ul>
-                    <li>
-                        <a href="#">Html</a>
-                    </li>
-
-                    <li>
-                        <a href="#">css</a>
-                    </li>
-
-                    <li>
-                        <a href="#">Javascript</a>
-                    </li>
+                    <li><a href="#">Html</a></li>
+                    <li class="Desktop-version"><a href="#">Ruby on Rails</a></li>
+                    <li> <a href="#">css</a></li>
+                    <li><a href="#">Javascript</a></li>
                 </ul>
             </div>
             <button type="button" class="btn">See Project</button>
-    </section> 
-
-    <section class="work-card">
-        <img src="images/Snapshoot Portfolio (1).png" alt="Snapshoot">
-        <h1>Tonic</h1>
-        
-        <article class="wrap-frame">
-            <div class="frame canopy"><h2>CANOPY</h2></div>
-            <div class="frame">
-                <img src="images/Counter.png" alt="">
-            </div>
-            <div class="frame">
-                <h3>Back End Dev</h3>
-            </div>
-            <div class="frame">
-                <img src="images/Counter.png" alt="">
-            </div>
-            <div class="frame">
-                <h3>2015</h3>
-            </div>
-        </article>
-
-            <div class="par">
-            <p> A daily selection of privately
-                 personalized reads;<br> no accounts or
-                 sign-ups required.</p>
-            </div>
-            <div class="lang-button">
-                <ul>
-                    <li>
-                        <a href="#">Html</a>
-                    </li>
-
-                    <li>
-                        <a href="#">css</a>
-                    </li>
-
-                    <li>
-                        <a href="#">Javascript</a>
-                    </li>
-                </ul>
-            </div>
-            <button type="button" class="btn">See Project</button>
-    </section> 
-
-    <section class="work-card">
-        <img src="images/Snapshoot Portfolio (3).png" alt="Snapshoot">
-        <h1>Tonic</h1>
-        
-        <article class="wrap-frame">
-            <div class="frame canopy"><h2>CANOPY</h2></div>
-            <div class="frame">
-                <img src="images/Counter.png" alt="">
-            </div>
-            <div class="frame">
-                <h3>Back End Dev</h3>
-            </div>
-            <div class="frame">
-                <img src="images/Counter.png" alt="">
-            </div>
-            <div class="frame">
-                <h3>2015</h3>
-            </div>
-        </article>
-
-            <div class="par">
-            <p> A daily selection of privately
-                 personalized reads;<br> no accounts or
-                 sign-ups required.</p>
-            </div>
-            <div class="lang-button">
-                <ul>
-                    <li>
-                        <a href="#">Html</a>
-                    </li>
-
-                    <li>
-                        <a href="#">css</a>
-                    </li>
-                    
-                    <li>
-                        <a href="#">Javascript</a>
-                    </li>
-                </ul>
-            </div>
-            <button type="button" class="btn">See Project</button>
-    </section> 
-
+        </div>
+</section>
 </section>
    
 <!--End of Work Cards Section-->
@@ -248,19 +176,17 @@
 
 <section class="About-section">
    <div class="about-wrap">
-    <h1>About <br> MySelf</h1>
+    <!-- <article class="about-side lef"> -->
+    <h2>About <br> MySelf</h2>
     <p>Hello I'm a software developer!
          I can help you build a product , 
          feature or website Look through some 
          of my work and experience! If you like 
          what you see and have a project you need coded,
-         don't hestiate to contact me.
-    </p>
-    <div class="link-text">
-        <a href="#">LETT'S CONNECT</a>
-    </div>
-    
-    <ul class="social-media">
+         don't hestiate to contact me.</p>
+        <p class="link-text about"><a href="#">LETT'S CONNECT</a></p>
+
+    <ul class="social-media about-media">
         <li>
          <a href="" target="_blank" rel="noopener noreferrer">
              <img class="s-m-icon" src="images/Vector.svg" alt="social-icon">
@@ -302,26 +228,22 @@
                     Languages
                     <i class="fa-solid fa-chevron-down"></i>
                 </div>
-                
                 <ul class="language-set">
-                    <li>
-                        <img src="images/Ellipse 1.png" alt="Html">
+                    <li class="img-lang one">
+                        <img src="images/Ellipse 1.png" alt="Html" >
                         <span>Javascript</span>
                     </li>
-                    <li>
+                    <li class="img-lang two">
                         <img src="images/css.png" alt="css">
                         <span>Css</span>
                     </li>
 
-                    <li>
-                        <img src="images/html.png" alt="Html">
+                    <li class="img-lang three">
+                        <img src="images/html.png" alt="Html" >
                         <span>Html</span>
                     </li>
                 </ul>
-
             </li>
-
-                
                     <li> 
                         <div class="arrows">
                         FrameWorks
@@ -332,15 +254,12 @@
                     <li> 
                     <div class="arrows">
                         Skills
-                        <i class="fa-solid fa-chevron-right"></i>
-                        
+                        <i class="fa-solid fa-chevron-right"></i> 
                     </div>
                     <span><hr></span>
-                    </li>
-                    
-                
-        </ul>
-    </div>
+                    </li>   
+                </ul>
+        </div>
 </section>
 
 <!--End of About Me Section-->
@@ -352,18 +271,14 @@
       with it
     </p>
     <form action="https://formspree.io/f/xvongqop" method="POST" >
-     
-      <div class="input">
+   
       <input class="contact-input"
         type="text"
         name="name"
         placeholder="Name"
         maxlength="30"
         required
-      />
-    </div>
-    <div class="input">
-    <input class="contact-input" type="email" name="email" placeholder="Email" required /></div>
+      /><input class="contact-input" type="email" name="email" placeholder="Email" required />
       <textarea class="contact-input text-area"
         name="message"
         maxlength="500"
