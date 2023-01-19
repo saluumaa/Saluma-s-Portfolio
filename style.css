@@ -216,6 +216,7 @@ header a {
   color: #396df2;
   margin-top: 10px;
   background-color: #fff;
+  transition: all .5s ease-out;
 }
 
 /* About Me Section */
@@ -389,6 +390,7 @@ header a {
 .btn:hover {
   background-color: #6070ff;
   color: #fff;
+  transform: scale(1.1);
 }
 
 .btn:link {
