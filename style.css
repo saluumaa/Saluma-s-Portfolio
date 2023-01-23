@@ -30,6 +30,17 @@ header p {
   width: 120px;
   color: #5c66b9;
   text-align: center;
+  animation: logo 0.7s linear;
+}
+
+@keyframes logo {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(100deg);
+  }
 }
 
 .nav-bar .img-nav {
