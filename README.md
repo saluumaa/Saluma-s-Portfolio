@@ -40,16 +40,14 @@
 
 
 <details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href=" HTML Tutorial (w3schools.com) ">HTML</a></li>    
-   <li><a href=" CSS Tutorial (w3schools.com) ">CSS</a></li>
-  </ul>
-
+<summary>Client</summary>
+<ul>
+  <li><a href=" HTML Tutorial (w3schools.com) ">HTML</a></li>    
+  <li><a href=" CSS Tutorial (w3schools.com) ">CSS</a></li>
+ </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
-
-
 
 - **[Github Flow execution]**
  
