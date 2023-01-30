@@ -23,33 +23,29 @@ header {
   z-index: 1;
 }
 
-header p {
+header .logo {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
   width: 120px;
-  color: #5c66b9;
+  color: #371fff;
   text-align: center;
-  animation: logo 0.7s linear;
+  animation: logo 2s ease;
 }
 
 @keyframes logo {
-  0% {
-    transform: rotate(0deg);
-  }
-
   100% {
-    transform: rotate(100deg);
+    transform: rotate3d(1, 2, 1, 360deg);
   }
 }
 
-.nav-bar .img-nav {
+.img-nav img {
   width: 20px;
   height: 15px;
   cursor: pointer;
 }
 
-.nav-list {
+.nav-bar {
   display: none;
 }
 
@@ -422,6 +418,10 @@ header a {
     display: none;
   }
 
+  .nav-bar {
+    display: flex;
+  }
+
   .nav-bar ul {
     display: flex;
     gap: 16px;
@@ -447,11 +447,17 @@ header a {
 
   .nav-bar li a {
     text-decoration: none;
-    color: #344563;
+    color: black;
     font-size: 15px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     padding-left: 12px;
+    line-height: 20px;
+  }
+
+  .nav-bar li a:hover {
+    color: #344563;
+    font-weight: 650;
   }
 
   header {
@@ -483,6 +489,7 @@ header a {
     line-height: 60px;
     color: #091e42;
     letter-spacing: 0.37px;
+    padding-top: 100px;
   }
 
   .link-text {
@@ -553,7 +560,7 @@ header a {
   }
 
   .works-section {
-    padding: 70px 80px;
+    padding: 70px 142px;
   }
 
   .work-card {
@@ -564,13 +571,18 @@ header a {
     flex: 1;
   }
 
+  .card-img {
+    flex-basis: 50%;
+    transition: 0.5s;
+  }
+
+  .card-img:hover {
+    transform: scale(1.05);
+  }
+
   .works-section .card-reverse {
     flex-direction: row-reverse;
     border: 2px solid #a7aeff;
-  }
-
-  .card-img {
-    flex-basis: 50%;
   }
 
   .right-sec {
