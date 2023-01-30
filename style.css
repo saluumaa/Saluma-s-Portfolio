@@ -460,6 +460,9 @@ header a {
   .img-nav {
     display: none;
   }
+  .nav-bar.active{
+    visibility: hidden;
+  }
 
   .nav-bar {
     display: flex;
