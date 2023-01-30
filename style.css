@@ -49,6 +49,49 @@ header .logo {
   display: none;
 }
 
+.nav-bar.active {
+  display: flex;
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100vh;
+  padding-top: 106px;
+  background-color: #6070ff99;
+  backdrop-filter: blur(8px);
+}
+
+.nav-bar.active li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 28px;
+  padding-bottom: 40px;
+}
+
+.nav-bar.active a {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #fff
+}
+
+i.close {
+  font-size: 24px;
+  color:white;
+  display: none;
+  cursor: pointer;
+  filter: invert(0);
+}
+
+i.close.show {
+  display: flex;
+}
+
+img.humberger.hide {
+  display: none;
+}
+
 header a {
   text-decoration: none;
 }
