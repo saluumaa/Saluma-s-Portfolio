@@ -23,7 +23,6 @@ navLinksEl.forEach((item) => {
   });
 });
 
-
 const workCards = [
   {
     Name: 'Tonic',
