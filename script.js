@@ -99,7 +99,7 @@ btnEl1.addEventListener('click', () => {
   </div>
   </div>
   `;
-  body.appendChild(Popsection);
+    body.appendChild(Popsection);
 });
 
 btnEl2.addEventListener('click', () => {
