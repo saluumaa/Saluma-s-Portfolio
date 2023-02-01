@@ -142,7 +142,7 @@ header .logo {
 
 .lang-button li {
   list-style: none;
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   padding-right: 10px;
   margin-bottom: 15px;
@@ -193,12 +193,12 @@ header a {
 
 .lang-button li a {
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 8px;
   padding: 4px 12px;
   background: #ebebff;
-  margin-bottom: 20px;
   font-weight: 500;
   font-size: 12px;
+  color: #6070ff;
 }
 
 .nav-bar.active a {
@@ -536,6 +536,10 @@ img.humberger.hide {
     display: flex;
   }
 
+  .space-tech li {
+    margin-bottom: 10px;
+  }
+
   .right-pop {
     display: flex;
     gap: 36px;
@@ -544,6 +548,7 @@ img.humberger.hide {
 
   .desk-img {
     max-width: 1100px;
+    max-height: 586px;
   }
 
   .column-pop {
@@ -552,15 +557,57 @@ img.humberger.hide {
     flex-basis: 35%;
   }
 
+  .pop-btn {
+    padding: 8px 25px;
+    gap: 10px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+  }
+
+  hr.hor-line {
+    margin-top: 2px;
+    margin-bottom: 31px;
+    max-width: 300px;
+    border: 1px solid #ebecf0;
+  }
+
+  .icon-holder h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    margin-bottom: 5px;
+  }
+
   .Popup-Section {
-    max-width: 1190px;
+    max-width: 1156px;
     padding: 24px;
-    margin: 72px 140px;
+    margin: 72px 142px;
+    justify-content: center;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   }
 
   .right-pop .pop-par {
     flex-basis: 65%;
     max-width: 700px;
+  }
+
+  header p {
+    color: #6070ff;
+  }
+
+  .wrap-frame p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+  }
+
+  .wrap-frame .canopy {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
   }
 
   .img-nav {
@@ -608,10 +655,6 @@ img.humberger.hide {
 
   header {
     padding: 25px 80px;
-  }
-
-  header p {
-    color: #6070ff;
   }
 
   .section-one {
@@ -671,13 +714,13 @@ img.humberger.hide {
 
   .language-set li img {
     padding-bottom: 25px;
-    margin-top: -15px;
+    margin-top: 0;
   }
 
   .language-set span {
-    margin-top: 30px;
+    margin-top: 25px;
     text-align: center;
-    margin-left: -25px;
+    margin-left: -22px;
   }
 
   .language-set .two {
@@ -738,5 +781,20 @@ img.humberger.hide {
 
   .par {
     max-width: 496px;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .Popup-Section {
+    padding: 24px;
+    margin: 72px auto;
+    justify-content: center;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  }
+
+  .desk-img {
+    width: auto;
+    max-height: 586px;
+    padding: auto;
   }
 }

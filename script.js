@@ -81,7 +81,7 @@ btnEl1.addEventListener('click', () => {
       <p class="par pop-par">${workCards[0].Description} </p>
       <div class="column-pop">
       <div class="lang-button">
-      <ul>
+      <ul class="space-tech">
           <li><a href="#">${workCards[0].Technologies[0]}</a></li>
           <li> <a href="#">${workCards[0].Technologies[1]}</a></li>
           <li><a href="#">${workCards[0].Technologies[2]}</a></li>
@@ -91,6 +91,7 @@ btnEl1.addEventListener('click', () => {
           <li> <a href="#">${workCards[0].Technologies[4]}</a></li>
           <li><a href="#">${workCards[0].Technologies[5]}</a></li>
       </ul>
+      <hr class="hor-line">
   </div>
   <div class="popBtn">
   <a href="https://saluumaa.github.io/Personal-portfolio/"><button type="button" class="pop-btn">${workCards[0].LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button></a>
@@ -124,7 +125,7 @@ btnEl2.addEventListener('click', () => {
       <p class="par pop-par">${workCards[1].Description} </p>
       <div class="column-pop">
       <div class="lang-button">
-      <ul>
+      <ul class="space-tech">
           <li><a href="#">${workCards[0].Technologies[0]}</a></li>
           <li> <a href="#">${workCards[0].Technologies[1]}</a></li>
           <li><a href="#">${workCards[0].Technologies[2]}</a></li>
@@ -134,6 +135,7 @@ btnEl2.addEventListener('click', () => {
           <li> <a href="#">${workCards[0].Technologies[4]}</a></li>
           <li><a href="#">${workCards[0].Technologies[5]}</a></li>
       </ul>
+      <hr class="hor-line">
   </div>
   <div class="popBtn">
   <a href="https://saluumaa.github.io/Personal-portfolio/"><button type="button" class="pop-btn">${workCards[0].LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button></a>
@@ -167,7 +169,7 @@ btnEl3.addEventListener('click', () => {
       <p class="par pop-par">${workCards[0].Description} </p>
       <div class="column-pop">
       <div class="lang-button">
-      <ul>
+      <ul class="space-tech">
           <li><a href="#">${workCards[0].Technologies[0]}</a></li>
           <li> <a href="#">${workCards[0].Technologies[1]}</a></li>
           <li><a href="#">${workCards[0].Technologies[2]}</a></li>
@@ -177,6 +179,7 @@ btnEl3.addEventListener('click', () => {
           <li> <a href="#">${workCards[0].Technologies[4]}</a></li>
           <li><a href="#">${workCards[0].Technologies[5]}</a></li>
       </ul>
+      <hr class="hor-line">
   </div>
   <div class="popBtn">
   <a href="https://saluumaa.github.io/Personal-portfolio/"><button type="button" class="pop-btn">${workCards[0].LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button></a>
@@ -210,7 +213,7 @@ btnEl4.addEventListener('click', () => {
       <p class="par pop-par">${workCards[3].Description} </p>
       <div class="column-pop">
       <div class="lang-button">
-      <ul>
+      <ul class="space-tech">
           <li><a href="#">${workCards[0].Technologies[0]}</a></li>
           <li> <a href="#">${workCards[0].Technologies[1]}</a></li>
           <li><a href="#">${workCards[0].Technologies[2]}</a></li>
@@ -220,6 +223,7 @@ btnEl4.addEventListener('click', () => {
           <li> <a href="#">${workCards[0].Technologies[4]}</a></li>
           <li><a href="#">${workCards[0].Technologies[5]}</a></li>
       </ul>
+      <hr class="hor-line">
   </div>
   <div class="popBtn">
   <a href="https://saluumaa.github.io/Personal-portfolio/"><button type="button" class="pop-btn">${workCards[0].LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button></a>
