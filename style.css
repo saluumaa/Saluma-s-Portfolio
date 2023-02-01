@@ -10,6 +10,81 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+body.background-img {
+  background-image: url('images/header-shapes\ mobile.png');
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 97% 80%;
+  background-color: #c1c7d099;
+  backdrop-filter: blur(5px);
+}
+
+.close-cards {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container.hide-container {
+  display: none;
+  visibility: hidden;
+}
+
+.Popup-Section {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  margin: 25px 16px;
+  padding: 16px;
+  z-index: 1;
+}
+
+.Popup-Section.hide-popup {
+  display: none;
+  visibility: hidden;
+}
+
+.popBtn {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+  align-items: flex-start;
+}
+
+.pop-btn {
+  gap: 20px;
+  margin-right: 16px;
+  padding: 16px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #396df2;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.icon-holder {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+}
+
+.in-btn {
+  padding-left: 10px;
+  cursor: pointer;
+  color: #6070ff;
+}
+
+.Desktop-vers {
+  display: none;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -67,7 +142,7 @@ header .logo {
 
 .lang-button li {
   list-style: none;
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   padding-right: 10px;
   margin-bottom: 15px;
@@ -118,12 +193,12 @@ header a {
 
 .lang-button li a {
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 8px;
   padding: 4px 12px;
   background: #ebebff;
-  margin-bottom: 20px;
   font-weight: 500;
   font-size: 12px;
+  color: #6070ff;
 }
 
 .nav-bar.active a {
@@ -457,6 +532,84 @@ img.humberger.hide {
 /* Start of the desktop version */
 
 @media only screen and (min-width: 768px) {
+  .Desktop-vers {
+    display: flex;
+  }
+
+  .space-tech li {
+    margin-bottom: 10px;
+  }
+
+  .right-pop {
+    display: flex;
+    gap: 36px;
+    padding-top: 50px;
+  }
+
+  .desk-img {
+    max-width: 1100px;
+    max-height: 586px;
+  }
+
+  .column-pop {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35%;
+  }
+
+  .pop-btn {
+    padding: 8px 25px;
+    gap: 10px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+  }
+
+  hr.hor-line {
+    margin-top: 2px;
+    margin-bottom: 31px;
+    max-width: 300px;
+    border: 1px solid #ebecf0;
+  }
+
+  .icon-holder h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    margin-bottom: 5px;
+  }
+
+  .Popup-Section {
+    max-width: 1156px;
+    padding: 24px;
+    margin: 72px 142px;
+    justify-content: center;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  }
+
+  .right-pop .pop-par {
+    flex-basis: 65%;
+    max-width: 700px;
+  }
+
+  header p {
+    color: #6070ff;
+  }
+
+  .wrap-frame p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+  }
+
+  .wrap-frame .canopy {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
   .img-nav {
     display: none;
   }
@@ -502,10 +655,6 @@ img.humberger.hide {
 
   header {
     padding: 25px 80px;
-  }
-
-  header p {
-    color: #6070ff;
   }
 
   .section-one {
@@ -565,13 +714,13 @@ img.humberger.hide {
 
   .language-set li img {
     padding-bottom: 25px;
-    margin-top: -15px;
+    margin-top: 0;
   }
 
   .language-set span {
-    margin-top: 30px;
+    margin-top: 25px;
     text-align: center;
-    margin-left: -25px;
+    margin-left: -22px;
   }
 
   .language-set .two {
@@ -632,5 +781,20 @@ img.humberger.hide {
 
   .par {
     max-width: 496px;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .Popup-Section {
+    padding: 24px;
+    margin: 72px auto;
+    justify-content: center;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  }
+
+  .desk-img {
+    width: auto;
+    max-height: 586px;
+    padding: auto;
   }
 }
