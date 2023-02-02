@@ -497,7 +497,7 @@ img.humberger.hide {
   width: 140px;
   border: none;
   padding: 12px 16px;
-  background: #fff;
+  background: white;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -506,6 +506,14 @@ img.humberger.hide {
   color: #6070ff;
   border-radius: 8px;
   margin-left: 0;
+  margin-top: 15px;
+}
+
+#message {
+  position: relative;
+  font-size: 14px;
+  font-weight: 650;
+  top: -88px;
 }
 
 .btn:active {
@@ -745,7 +753,11 @@ img.humberger.hide {
   }
 
   .btn-contact {
-    margin: 0 auto;
+    margin: 20px auto;
+  }
+
+  #message {
+    top: -110px;
   }
 
   .works-section {
