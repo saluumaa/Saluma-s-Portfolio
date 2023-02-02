@@ -1,7 +1,6 @@
 const btnFormEl = document.querySelector("#btn-form");
 function validate(){
     const emailInput = document.getElementById('email').value;
-    const emailValidation = /^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
     document.forms[0].onsubmit = function email(e) {
     if(!(emailValidation.test(emailInput))) {
         document.getElementById('message').innerHTML = "Please use a lowercase text for the email";
