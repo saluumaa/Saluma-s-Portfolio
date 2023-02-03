@@ -276,13 +276,14 @@
    
       <input class="contact-input"
         type="text"
+        id="name"
         name="name"
         placeholder="Name"
         maxlength="30"
         required
       /><input class="contact-input" id="email" type="email" name="email" placeholder="Email" required />
       <textarea class="contact-input text-area"
-        name="message"
+        name="message" id="textarea"
         maxlength="500"
         placeholder="Write your message here"
         required
@@ -294,6 +295,7 @@
     </form>
   </section>
 </main>
+<script src="preserve-data.js"></script>
 <script src="validation.js"></script>
 <script src="script.js"></script>
 </body>
