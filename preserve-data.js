@@ -1,10 +1,9 @@
 const form = document.getElementById('form');
-const btn = document.getElementById('btn-form');
 const emailInput = document.getElementById('email');
 const textareaInput = document.getElementById('textarea');
 const nameInput = document.getElementById('name');
 
-btn.addEventListener('click', () => {
+form.addEventListener('input', () => {
   const email = emailInput.value;
   const textarea = textareaInput.value;
   const name = nameInput.value;
