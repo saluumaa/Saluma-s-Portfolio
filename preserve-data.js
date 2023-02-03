@@ -32,7 +32,3 @@ function show() {
 }
 
 document.addEventListener('DOMContentLoaded', show);
-
-form.addEventListener('load', () => {
-  show();
-});
