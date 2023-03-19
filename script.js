@@ -25,30 +25,36 @@ navLinksEl.forEach((item) => {
 
 const workCards = [
   {
-    Name: 'Tonic',
-    Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    FeaturedImage: 'images/Snapshoot Portfolio11.png',
+    Name: 'Capstone Project',
+    Description: "The Genius Academy is a platform for learning skills, providing educational resources and courses to help individuals improve their knowledge and abilities in a specific area.",
+    FeaturedImage: 'images/CapstoneProject.PNG',
     Technologies: ['Html', 'Css', 'JavaScript', 'Github', 'Ruby', 'Bootstrap'],
     LiveVersion: 'See Live',
     source: 'See Source',
   },
 
   {
-    Name: 'Multi-Post Stories',
-    Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    FeaturedImage: 'images/Snapshoot Portfolio (1).png',
+    Name: 'Awesome Books',
+    Description: "Awesome Books is an Application that helps you to collect and save your favorite books, it will let you as well remove the completed books.",
+    FeaturedImage: 'images/Awesome Books.PNG',
+    LiveVersion: 'See Live',
+    source: 'See Source',
   },
 
   {
     Name: 'Facebook 360',
     Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    FeaturedImage: 'images/Snapshoot Portfolio.png',
+    FeaturedImage: 'images/Leaderboargame.PNG',
+    LiveVersion: 'See Live',
+    source: 'See Source',
   },
 
   {
     Name: 'Uber Navigation',
     Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    FeaturedImage: 'images/Snapshoot Portfolio (3).png',
+    FeaturedImage: 'images/To do list.PNG',
+    LiveVersion: 'See Live',
+    source: 'See Source',
   },
 ];
 
@@ -94,8 +100,8 @@ btnEl1.addEventListener('click', () => {
       <hr class="hor-line">
   </div>
   <div class="popBtn">
-  <a href="https://saluumaa.github.io/Personal-portfolio/"><button type="button" class="pop-btn">${workCards[0].LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button></a>
-  <a href="https://github.com/saluumaa/Saluma-s-Portfolio"><button type="button" class="pop-btn">${workCards[0].source} <i class="fa-brands fa-github in-btn"></i> </button></a>
+  <a href="https://saluumaa.github.io/GeniusAcademy-institute/index.html"><button type="button" class="pop-btn">${workCards[0].LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button></a>
+  <a href="https://github.com/saluumaa/Skill-Sail-Site"><button type="button" class="pop-btn">${workCards[0].source} <i class="fa-brands fa-github in-btn"></i> </button></a>
   </div>
   </div>
   </div>
@@ -138,8 +144,8 @@ btnEl2.addEventListener('click', () => {
       <hr class="hor-line">
   </div>
   <div class="popBtn">
-  <a href="https://saluumaa.github.io/Personal-portfolio/"><button type="button" class="pop-btn">${workCards[0].LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button></a>
-  <a href="https://github.com/saluumaa/Saluma-s-Portfolio"><button type="button" class="pop-btn">${workCards[0].source} <i class="fa-brands fa-github in-btn"></i> </button></a>
+  <a href="https://saluumaa.github.io/Awesome-Books/"><button type="button" class="pop-btn">${workCards[0].LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button></a>
+  <a href="https://github.com/saluumaa/Awesome-Books"><button type="button" class="pop-btn">${workCards[0].source} <i class="fa-brands fa-github in-btn"></i> </button></a>
   </div>
   </div>
   </div>
@@ -182,8 +188,8 @@ btnEl3.addEventListener('click', () => {
       <hr class="hor-line">
   </div>
   <div class="popBtn">
-  <a href="https://saluumaa.github.io/Personal-portfolio/"><button type="button" class="pop-btn">${workCards[0].LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button></a>
-  <a href="https://github.com/saluumaa/Saluma-s-Portfolio"><button type="button" class="pop-btn">${workCards[0].source} <i class="fa-brands fa-github in-btn"></i> </button></a>
+  <a href="https://saluumaa.github.io/Leader-board/dist/"><button type="button" class="pop-btn">${workCards[0].LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button></a>
+  <a href="https://github.com/saluumaa/Leader-board"><button type="button" class="pop-btn">${workCards[0].source} <i class="fa-brands fa-github in-btn"></i> </button></a>
   </div>
   </div>
   </div>
@@ -226,8 +232,8 @@ btnEl4.addEventListener('click', () => {
       <hr class="hor-line">
   </div>
   <div class="popBtn">
-  <a href="https://saluumaa.github.io/Personal-portfolio/"><button type="button" class="pop-btn">${workCards[0].LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button></a>
-  <a href="https://github.com/saluumaa/Saluma-s-Portfolio"><button type="button" class="pop-btn">${workCards[0].source} <i class="fa-brands fa-github in-btn"></i> </button></a>
+  <a href="https://saluumaa.github.io/To-do-List/dist/"><button type="button" class="pop-btn">${workCards[0].LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button></a>
+  <a href="https://github.com/saluumaa/To-do-List"><button type="button" class="pop-btn">${workCards[0].source} <i class="fa-brands fa-github in-btn"></i> </button></a>
   </div>
   </div>
   </div>

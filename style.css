@@ -540,6 +540,14 @@ img.humberger.hide {
 /* Start of the desktop version */
 
 @media only screen and (min-width: 768px) {
+  .mobile-vers {
+    display: none;
+  }
+
+  .Desktop-version {
+    display: flex;
+  }
+
   .Desktop-vers {
     display: flex;
   }
@@ -797,6 +805,10 @@ img.humberger.hide {
 }
 
 @media only screen and (min-width: 1450px) {
+  .mobile-vers {
+    display: none;
+  }
+
   .Popup-Section {
     padding: 24px;
     margin: 72px auto;
