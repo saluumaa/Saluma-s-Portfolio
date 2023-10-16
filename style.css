@@ -14,8 +14,6 @@ body.background-img {
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: 97% 80%;
-
-  /* background-color: #c1c7d099; */
   backdrop-filter: blur(5px);
 }
 
@@ -308,7 +306,7 @@ img.humberger.hide {
   grid-template-columns: 100%;
   padding: 70px 24px;
   gap: 100px;
-  margin-top: 50px auto 0 auto;
+  margin: 50px auto 0 auto;
   background-color: #f4f5f7;
 }
 
@@ -317,6 +315,8 @@ img.humberger.hide {
   border-radius: 16px;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  width: 100%;
   padding: 16px;
   background-color: #fff;
 }
