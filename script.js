@@ -29,12 +29,21 @@ navLinksEl.forEach((item) => {
 
 const workCards = [
   {
-    Name: 'Capstone Project',
-    Description: 'The Genius Academy is a platform for learning skills, providing educational resources and courses to help individuals improve their knowledge and abilities in a specific area.',
-    FeaturedImage: 'images/CapstoneProject.PNG',
-    Technologies: ['Html', 'Css', 'JavaScript', 'Github', 'Ruby', 'Bootstrap'],
+    Name: 'Car Hub',
+    Description: 'Car Hub is a website that allows you to search for cars that suits you. It also allows you to add cars to your list and remove them from your  list. you can reserve a car and see the details of the car you want to buy.',
+    FeaturedImage: 'images/car hub shot.png',
+    Technologies: ['React', 'Redux', 'Github', 'Ruby on Rails', 'CSS','Postgres'],
     LiveVersion: 'See Live',
     source: 'See Source',
+  },
+
+  {
+    Name: 'Budget App',
+    Description: 'Budget App is an Application that helps you to manage your budget and keep track of your expenses.',
+    FeaturedImage: 'images/budget screenshot.PNG',
+    Technologies: ['Ruby on Rails','Github', 'Postgres', 'Bootstrap', 'CSS', 'Render'],
+    LiveVersion: '<a href="https://budgetapp-d0on.onrender.com/">See Live</a>',
+    source: '<a href="https://github.com/saluumaa/Budget-App">See Source</a>',
   },
 
   {
@@ -47,19 +56,19 @@ const workCards = [
   },
 
   {
-    Name: 'Facebook 360',
-    Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    Name: 'Leaderboard',
+    Description: 'Leaderboard is an API that allows you to post your score and see the scores of other players.',
     FeaturedImage: 'images/Leaderboargame.PNG',
-    Technologies: ['Html', 'Css', 'JavaScript', 'Github', 'Ruby', 'Bootstrap'],
-    LiveVersion: 'See Live',
-    source: 'See Source',
+    Technologies: ['Html', 'Css', 'JavaScript', 'Github', 'API', 'Webpack'],
+    LiveVersion: '<a href="LIVE_URL_HERE">See Live</a>',
+    source: '<a href="LIVE_URL_HERE">See Source</a>'
   },
 
   {
-    Name: 'Uber Navigation',
+    Name: 'Bookstore',
     Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    FeaturedImage: 'images/To do list.PNG',
-    Technologies: ['Html', 'Css', 'JavaScript', 'Github', 'Ruby', 'Bootstrap'],
+    FeaturedImage: 'images/Bookstore Snapshot.PNG',
+    Technologies: ['Html', 'Css', 'JavaScript', 'Github', 'API', 'Webpack'],
     LiveVersion: 'See Live',
     source: 'See Source',
   },
@@ -106,8 +115,8 @@ btnEl1.forEach((btn, index) => {
       <hr class="hor-line">
   </div>
   <div class="popBtn">
-  <a href="https://saluumaa.github.io/GeniusAcademy-institute/index.html"><button type="button" class="pop-btn">${workCard.LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button></a>
-  <a href="https://github.com/saluumaa/Skill-Sail-Site"><button type="button" class="pop-btn">${workCard.source} <i class="fa-brands fa-github in-btn"></i> </button></a>
+  <button type="button" class="pop-btn">${workCard.LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button>
+  <button type="button" class="pop-btn">${workCard.source} <i class="fa-brands fa-github in-btn"></i> </button>
   </div>
   </div>
   </div>

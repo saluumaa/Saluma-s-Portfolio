@@ -91,7 +91,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 24px;
-  background-color: #371fff;
+  background-color: #6070ff;
   position: fixed;
   top: 0;
   width: 100%;
@@ -464,10 +464,9 @@ img.humberger.hide {
   background-color: #6070ff;
   border-top-left-radius: 80px;
   width: 100%;
-  background-image: url(/images/contact-form-m-bg.svg);
-  background-size: contain;
+  background-image: url('images/contact\ form\ background\ shapesdesktop.png');
+  background-size: 100% 97%;
   background-position: top right;
-  background-repeat: no-repeat;
   padding: 50px 24px;
   font-family: 'Poppins', sans-serif;
   margin-top: -50px;
@@ -572,20 +571,6 @@ img.humberger.hide {
   visibility: hidden;
 }
 
-.skills-menu .skills-one {
-  padding: 30px 5px;
-}
-
-.skills-menu .prog-skills {
-  margin: -25px 0 0 0;
-}
-
-.skills-one span {
-  font-weight: 500;
-  font-size: 15px;
-  color: #253858;
-  padding: 5px 0 15px 0;
-}
 
 /* Start of the desktop version */
 
@@ -756,7 +741,6 @@ img.humberger.hide {
     display: grid;
     grid-template-columns: 1.5fr 2fr;
     gap: 24px;
-    border-radius: 0;
     flex: 1;
   }
 
@@ -797,16 +781,8 @@ img.humberger.hide {
   .skills-menu {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 5px;
+    padding: 8px;
     gap: 10px;
-  }
-
-  .skills-menu .skills-one {
-    padding: 50px 5px;
-  }
-
-  .skills-menu .prog-skills {
-    margin: -45px 0 0 0;
   }
 
   .skills-one span {
@@ -817,7 +793,6 @@ img.humberger.hide {
   }
 
   .contact-section {
-    background-image: url(/images/contact\ form\ background\ shapesdesktop.png);
     background-size: 90% 97%;
     background-position: 80% 50%;
     background-repeat: no-repeat;
