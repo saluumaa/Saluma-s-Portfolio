@@ -33,7 +33,7 @@ const workCards = [
     Dev: 'Full Stack Dev',
     Description: 'Car Hub is a website that allows you to search for cars that suits you. It also allows you to add cars to your list and remove them from your  list. you can reserve a car and see the details of the car you want to buy.',
     FeaturedImage: 'images/car hub shot.png',
-    Technologies: ['React', 'Redux', 'Github', 'Ruby on Rails', 'CSS','Postgres'],
+    Technologies: ['React', 'Redux', 'Github', 'Ruby on Rails', 'CSS', 'Postgres'],
     LiveVersion: '<a href="https://dev--cozy-concha-614dd5.netlify.app/">See Live</a>',
     source: '<a href="https://github.com/deniodev/Car-Hub">See Source</a>',
   },
@@ -43,7 +43,7 @@ const workCards = [
     Dev: 'Back End Dev',
     Description: 'Budget App is an Application that helps you to manage your budget and keep track of your expenses.',
     FeaturedImage: 'images/budget screenshot.PNG',
-    Technologies: ['Ruby on Rails','Github', 'Postgres', 'Bootstrap', 'CSS', 'Render'],
+    Technologies: ['Ruby on Rails', 'Github', 'Postgres', 'Bootstrap', 'CSS', 'Render'],
     LiveVersion: '<a href="https://budgetapp-d0on.onrender.com/">See Live</a>',
     source: '<a href="https://github.com/saluumaa/Budget-App">See Source</a>',
   },
@@ -65,7 +65,7 @@ const workCards = [
     FeaturedImage: 'images/Leaderboargame.PNG',
     Technologies: ['Html', 'Css', 'JavaScript', 'Github', 'API', 'Webpack'],
     LiveVersion: '<a href="https://saluumaa.github.io/Leader-board/dist/">See Live</a>',
-    source: '<a href="https://github.com/saluumaa/Leader-board">See Source</a>'
+    source: '<a href="https://github.com/saluumaa/Leader-board">See Source</a>',
   },
 
   {
