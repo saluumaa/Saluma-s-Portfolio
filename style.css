@@ -258,22 +258,56 @@ i.close.show {
   min-height: 721px;
 }
 
-.section-one h1 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  margin: 10px 0;
-  padding-top: 80px;
+.text-holder {
+  margin-top: 80px;
   color: #172b4d;
-  align-items: center;
+  animation: fadeIn 2s ease-in-out;
 }
 
-.section-one p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  margin-bottom: 10px;
+.my-name {
+  font-size: 36px;
+  color: #172b4d;
+}
+
+.name {
+  color: #48c9b0;
+  animation: colorChange 2s infinite alternate;
+}
+
+.description {
+  font-size: 20px;
+  color: #555;
+}
+
+.role {
+  color: #3498db;
+  animation: colorChange 2s infinite alternate;
+}
+
+.contact {
+  color: #015bf7;
+  font-weight: bold;
+  animation: colorChange 2s infinite alternate;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes colorChange {
+  from {
+    color: #172b4d;
+  }
+
+  to {
+    color: #015bf7;
+  }
 }
 
 .social-media {

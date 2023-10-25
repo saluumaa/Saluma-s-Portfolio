@@ -74,7 +74,7 @@ const workCards = [
     Description: "Bookstore is an Application that allows you to add books to your list and remove them from your list. you can also change the status of the book you've read.",
     FeaturedImage: 'images/Bookstore Snapshot.PNG',
     Technologies: ['Html', 'Css', 'JavaScript', 'Github', 'API', 'Webpack'],
-    LiveVersion: '<a href="https://book-store-f6oy.onrender.com/">See Live</a>',
+    LiveVersion: '<a href="3">See Live</a>',
     source: '<a href="https://github.com/saluumaa/book-store">See Source</a>',
   },
 ];
@@ -96,7 +96,7 @@ btnEl1.forEach((btn, index) => {
       <a onclick="showMenu(close)"><i class="fa-solid fa-xmark close-cards"></i></a>
     </div>
     <article class="wrap-frame">
-      <p class="frame canopy">Application</p>
+      <p class="frame canopy">Salum</p>
       <img src="images/Counter.png" alt="">
       <p class="frame">${workCard.Dev}</p>
       <img class="frame" src="images/Counter.png" alt="" class="card-img">
