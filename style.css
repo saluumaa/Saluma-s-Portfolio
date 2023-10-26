@@ -17,6 +17,10 @@ body.background-img {
   backdrop-filter: blur(5px);
 }
 
+.url-remove-decoration {
+  text-decoration: none;
+}
+
 .close-cards {
   font-size: 20px;
   cursor: pointer;
@@ -39,9 +43,19 @@ body.background-img {
   left: 10%;
   top: 10%;
   width: 80%;
-  margin: 25px auto;
+  margin: 50px auto;
   padding: 16px;
   z-index: 1;
+}
+
+.card-img {
+  border-radius: 25px;
+}
+
+.Popup-Section .card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
 }
 
 .Popup-Section.hide-popup {
@@ -91,7 +105,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 24px;
-  background-color: #6070ff;
+  background-color: #fff;
   position: fixed;
   top: 0;
   width: 100%;
@@ -105,7 +119,7 @@ header .logo {
   font-weight: 700;
   line-height: 20px;
   width: 120px;
-  color: #fff;
+  color: #371fff;
   text-align: center;
   animation: logo 2s ease;
 }
@@ -121,7 +135,7 @@ header .logo {
   height: 15px;
   cursor: pointer;
   font-size: 1.5rem;
-  color: #fff;
+  color: #015bf7;
 }
 
 .nav-bar {
@@ -136,7 +150,7 @@ header .logo {
   width: 100%;
   height: 100vh;
   padding-top: 106px;
-  background-color: #6070ff99;
+  background-color: #015bf770;
   backdrop-filter: blur(8px);
 }
 
@@ -196,7 +210,8 @@ header .logo {
 }
 
 header a {
-  color: #fff;
+  color: #371fff;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -216,7 +231,7 @@ header a {
   background: #ebebff;
   font-weight: 500;
   font-size: 12px;
-  color: #6070ff;
+  color: #000;
 }
 
 .nav-bar.active a {
@@ -280,12 +295,12 @@ i.close.show {
 }
 
 .role {
-  color: #3498db;
+  color: #371fff;
   animation: colorChange 2s infinite alternate;
 }
 
 .contact {
-  color: #015bf7;
+  color: #371fff;
   font-weight: bold;
   animation: colorChange 2s infinite alternate;
 }
@@ -306,7 +321,7 @@ i.close.show {
   }
 
   to {
-    color: #015bf7;
+    color: #371fff;
   }
 }
 
@@ -330,8 +345,9 @@ i.close.show {
   font-weight: 500;
   line-height: 24px;
   width: 170px;
-  color: #172b4d;
+  color: #7f8cff;
   cursor: pointer;
+  padding-top: 2px;
   transition: 0.3;
 }
 
@@ -339,10 +355,11 @@ i.close.show {
 
 .works-section {
   display: grid;
-  grid-template-columns: 100%;
-  padding: 70px 24px;
-  gap: 100px;
-  margin: 50px auto 0 auto;
+  grid-template-rows: repeat(4, 1fr);
+  padding: 50px 24px;
+  place-content: center;
+  gap: 50px;
+  margin: 100px 50px 0 50px;
   background-color: #f4f5f7;
 }
 
@@ -351,8 +368,6 @@ i.close.show {
   border-radius: 16px;
   display: flex;
   flex-direction: column;
-  margin: auto;
-  width: 100%;
   padding: 16px;
   background-color: #fff;
 }
@@ -634,8 +649,9 @@ i.close.show {
   }
 
   .desk-img {
-    max-width: 1100px;
-    max-height: 586px;
+    max-width: 100%;
+    max-height: 40vh;
+    height: 20vh;
   }
 
   .column-pop {
@@ -667,9 +683,10 @@ i.close.show {
   }
 
   .Popup-Section {
-    max-width: 1156px;
+    /* max-width: 1156px; */
+    width: 80%;
     padding: 24px;
-    margin: 72px auto;
+    margin: auto;
     justify-content: center;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   }
@@ -727,9 +744,9 @@ i.close.show {
 
   .nav-bar li a {
     text-decoration: none;
-    color: #fff;
+    color: #344563;
     font-size: 16px;
-    font-weight: 550;
+    font-weight: 600;
     font-family: 'Poppins', sans-serif;
     padding-left: 12px;
     line-height: 20px;
@@ -854,13 +871,13 @@ i.close.show {
     top: -110px;
   }
 
-  .works-section {
-    padding: 70px 100px;
-  }
+  /* .works-section {
+    padding: 70px 142px;
+  } */
 
   .work-card {
-    max-width: 1156px;
     flex-direction: row;
+    justify-content: center;
     gap: 24px;
     border: 1px solid #a7aeff;
     border-radius: 24px;
@@ -882,7 +899,8 @@ i.close.show {
 
   .right-sec {
     flex-basis: 50%;
-    text-align: justify;
+
+    /* text-align: justify; */
   }
 
   .par {
@@ -896,15 +914,17 @@ i.close.show {
   }
 
   .Popup-Section {
+    position: fixed;
     padding: 24px;
-    margin: 72px auto;
+    margin: 25px auto;
+    height: auto;
     justify-content: center;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   }
 
-  .desk-img {
+  /* .desk-img {
     width: auto;
-    max-height: 586px;
+    height: auto;
     padding: auto;
-  }
+  } */
 }
