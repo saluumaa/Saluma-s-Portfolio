@@ -31,6 +31,11 @@ body.background-img {
   visibility: hidden;
 }
 
+.gmail {
+  color: #fff;
+  font-weight: 700;
+}
+
 .Popup-Section {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
