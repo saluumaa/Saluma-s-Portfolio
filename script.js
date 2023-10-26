@@ -73,7 +73,7 @@ const workCards = [
     Dev: 'Front End Developer',
     Description: "Genius Academy is an online platform that offers a wide range of educational resources and courses to help individuals enhance their skills and knowledge in various areas. It's built using HTML, CSS, and JavaScript.",
     FeaturedImage: 'images/skillsailpop4.PNG',
-    Technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub'],
+    Technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub', 'Bootstrap', 'Webpack'],
     LiveVersion: '<a href="https://saluumaa.github.io/Skill-Sail-Site/" class="url-remove-decoration">See Live</a>',
     Source: '<a href="https://github.com/saluumaa/Skill-Sail-Site" class="url-remove-decoration">See Source</a>',
   },
@@ -121,7 +121,7 @@ btnEl1.forEach((btn, index) => {
   </div>
   <div class="popBtn">
   <button type="button" class="pop-btn">${workCard.LiveVersion}  <i class="fa-solid fa-power-off in-btn"></i></button>
-  <button type="button" class="pop-btn">${workCard.source} <i class="fa-brands fa-github in-btn"></i> </button>
+  <button type="button" class="pop-btn">${workCard.Source} <i class="fa-brands fa-github in-btn"></i> </button>
   </div>
   </div>
   </div>

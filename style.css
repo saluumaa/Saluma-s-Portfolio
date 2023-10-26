@@ -301,7 +301,6 @@ i.close.show {
 
 .contact {
   color: #371fff;
-  font-weight: bold;
   animation: colorChange 2s infinite alternate;
 }
 
@@ -356,10 +355,11 @@ i.close.show {
 .works-section {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 100%;
   padding: 50px 24px;
   place-content: center;
   gap: 50px;
-  margin: 100px 50px 0 50px;
+  margin: 100px auto 0 auto;
   background-color: #f4f5f7;
 }
 
@@ -683,10 +683,9 @@ i.close.show {
   }
 
   .Popup-Section {
-    /* max-width: 1156px; */
     width: 80%;
     padding: 24px;
-    margin: auto;
+    margin: 50px auto;
     justify-content: center;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   }
@@ -871,9 +870,11 @@ i.close.show {
     top: -110px;
   }
 
-  /* .works-section {
-    padding: 70px 142px;
-  } */
+  .works-section {
+    /* padding: 70px 142px; */
+    grid-template-columns: none;
+    grid-template-rows: none;
+  }
 
   .work-card {
     flex-direction: row;
