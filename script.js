@@ -29,6 +29,15 @@ navLinksEl.forEach((item) => {
 
 const workCards = [
   {
+    Name: 'Blog App',
+    Dev: 'Full Stack Developer',
+    Description: 'The Blog App is a full-stack application that allows users to create, edit, and delete posts. It is built using Node.js, Express, and MongoDB. It also has user authentication and authorization features.',
+    FeaturedImage: 'images/fullpostscreenschot.png',
+    Technologies: ['GitHub', 'NodeJs', 'CSS', 'MongoDB', 'netlify', 'Render'],
+    LiveVersion: '<a href="https://imaginative-dusk-5ee5e7.netlify.app/" class="url-remove-decoration">See Live</a>',
+    Source: '<a href="https://github.com/misalazeem/node-blog-app" class="url-remove-decoration">See Source</a>',
+  },
+  {
     Name: 'Recipe App',
     Dev: 'Back End Developer',
     Description: 'The Recipe App is a web application that enables users to create and manage recipes. It is built using Ruby on Rails and includes user authentication (login/signup). Users can also generate shopping lists for their recipes.',
