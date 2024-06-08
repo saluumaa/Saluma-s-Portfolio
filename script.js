@@ -53,7 +53,7 @@ const workCards = [
     Description: 'The Budget App is designed to help users manage their finances and track expenses. It is built using Ruby on Rails and provides a user-friendly interface for expense management.',
     FeaturedImage: 'images/budgetapppop.PNG',
     Technologies: ['Ruby on Rails', 'GitHub', 'PostgreSQL', 'Bootstrap', 'CSS', 'Render'],
-    LiveVersion: '<a href="https://budgetapp-d0on.onrender.com/" class="url-remove-decoration">See Live</a>',
+    LiveVersion: '<a href="https://budget-app-fdkb.onrender.com/" class="url-remove-decoration">See Live</a>',
     Source: '<a href="https://github.com/saluumaa/Budget-App" class="url-remove-decoration">See Source</a>',
   },
 
